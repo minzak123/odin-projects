@@ -1,0 +1,26 @@
+.test-class {
+}
+.test-class:nth-child(odd){
+    background-color: rgb(220, 83, 115);
+    font-family: 'verdana','DejaVu Sans', 'sans-serrif';
+
+}
+.test-class:nth-child(even){
+
+}
+
+#second-id {
+    color: blue;
+    font-size: 36px;
+}
+
+#third-id{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#fourth-id {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
