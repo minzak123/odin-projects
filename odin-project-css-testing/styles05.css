@@ -1,0 +1,11 @@
+.container .text {
+    color: red;
+    background-color: yellow;
+}
+/* This is a basic Descandant combinator using the Class */
+
+/* This also works
+div p {
+    color: red;
+    background-color: yellow;
+}
