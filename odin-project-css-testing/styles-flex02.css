@@ -1,0 +1,41 @@
+.header {
+    /* The flex container*/
+    display: flex;
+    background-color: bisque;
+    justify-content:space-between;
+    align-items: center;
+    flex: auto;
+}
+
+.logo {
+    background-color: whitesmoke;
+    color: orangered;
+    font-size: 36px;
+    
+    border: 1px solid white;
+    margin: 4px;
+    padding-left: 36px;
+    padding-right: 36px;
+
+}
+
+.right-links,.left-links,ul{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+li{
+    background-color: whitesmoke;
+    margin: 8px;
+
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+
