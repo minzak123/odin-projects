@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(206, 191, 191);
+}
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,.1)
+
+}
+
+.left,.right,ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 16px;
+
+}
+
+
+
+
+
+
+
+
+
+.notifications{
+    background-color: purple;
+    color: white;
+    border-radius: 14px;
+    padding:4px 8px 4px 8px;
+    border: 0px;
+    
+}
+
+.profile-image{
+    height: 25px;
+    width: 25px;
+    background-color: purple;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.5);
+}
+
+a{
+    color: purple;
+    text-decoration: none;
+}
+.logo{
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 900;
+    color: purple;
+}
+li,button{
+    margin: 0px;
+    padding: 0px;
+}
