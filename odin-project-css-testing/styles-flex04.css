@@ -1,0 +1,36 @@
+/* Flex stuff */
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+
+    gap: 52px;
+
+}
+
+.items>div>.text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+
+/* Styling */
+img {
+    width: 200px;
+    gap: 48px;
+}
+
+.text {
+    font-size: 32px;
+}
+.title {
+    font-size: 86px;
+    font-weight: bold;
+}
