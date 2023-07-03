@@ -1,0 +1,101 @@
+body {
+    background-color: grey;
+
+}
+
+.modal {
+    display: flex;
+    margin: 20% 10% 20% 10%;
+    gap: 12px;
+
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 8px;
+
+}
+
+.top button {
+    flex-shrink: 0;
+}
+
+.icon {
+    flex-wrap: nowrap;
+    display: flex;
+    flex: 0 0 25px;
+    height: 25px;
+    text-align: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.content {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+
+
+/*Styles*/
+
+.header {
+    font-size: larger;
+    font-weight: bold;
+}
+.text {
+    font-size: small;
+}
+
+.icon{
+    color: rgb(51, 150, 237);
+    font-size: larger;
+    font-weight: bold;
+    background-color: lightgray;
+
+    border-radius: 50%;
+}
+
+.modal {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+.buttons button{
+    border-radius: 6px;
+    border: 1px solid lightgray;
+    padding: 6px;
+    text-align: center;
+    font-size: 12px;
+
+}
+
+.buttons .continue {
+    background-color: mediumblue;
+    color: white;
+
+}
+
+.buttons .cancel {
+    background-color: white;
+    color: mediumblue
+
+}
+
+.top .close-button {
+    text-align: center;
+    border-radius: 50%;
+
+    height: 25px;
+    flex: 0 0 25px;
+    
+
+
+}
