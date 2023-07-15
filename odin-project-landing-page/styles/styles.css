@@ -1,0 +1,50 @@
+/*Flex-positioning */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+
+/*Styling */
+ul,li,a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+img {
+    size: 250px;
+    width: 250px;
+}
