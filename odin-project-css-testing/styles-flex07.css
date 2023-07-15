@@ -1,0 +1,105 @@
+body {
+    flex-direction: column;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    background-color: whitesmoke;
+
+    
+}
+
+
+.header,.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-basis: 4rem;
+    align-items: center;
+
+
+}
+
+
+.content {
+    display: flex;
+    flex: 1;
+    background-color: whitesmoke;
+    padding-right: 10%;
+
+}
+
+.sidebar {
+    display: flex;
+    flex: 1 0 15%;
+    background-color: blueviolet;
+    margin-right: 2rem;
+    justify-content: flex-start;
+
+}
+
+
+li {
+    margin: 8px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+
+}
+
+.card {
+    flex: 1 0 24%;
+    margin: 1%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 8px;
+
+}
+
+.header {
+    justify-content: flex-start;
+    padding-left: 2rem;
+}
+
+/* Styling */
+
+body {
+    background-color: white;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.header { 
+    background-color: purple;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+
+}
+
+.sidebar {
+    background-color: royalblue;
+}
+
+.footer {
+    background-color: lightgray;
+}
