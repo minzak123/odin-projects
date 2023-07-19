@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container { 
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+
+    flex: 1 0 20vh;
+    width: 40vw;
+    
+}
+
+p {
+    padding: 20px;
+    margin: 0;
+
+    width: 80%;
+    height: fit-content;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+
+
+/*--Styling--*/
+.card {
+    background-color: rgb(159, 158, 158);
+    box-shadow: 10px 10px 5px lightblue;
+    }
+
+.header {
+    box-shadow: 10px 10px 5px lightblue;
+    background-color: rgba(0, 0, 0, 0.648);
+    color: whitesmoke;
+
+}
+
+body {
+    background-color: whitesmoke;
+}
