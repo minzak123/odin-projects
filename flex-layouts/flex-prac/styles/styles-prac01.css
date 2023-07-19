@@ -1,0 +1,70 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+
+
+    height: 100vh;
+    width: 100vh;
+    margin-left: 25vh;
+    margin-right: 25vh;
+}
+
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+
+    height: 10vh;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    height: 80vh;
+
+}
+
+.card {
+    margin: 1%;
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    flex:1 0 calc(25% - 1em);
+    height: 15vh;
+}
+
+
+
+.footer {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    height: 10vh;
+}
+
+/*--Styling--*/
+
+* {
+    /* For Dev spacing Turn off Later */
+    border: 2px solid black;
+}
+.content .card > p{
+    border: none
+}
