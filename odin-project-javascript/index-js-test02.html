@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        function add7 (n1) {
+            return n1 + 7;
+        }
+        function multiply (x, y) {
+            return x * y;
+        }
+
+        function capitalize (s) {
+            s = s.toLowerCase();
+
+            const sliced = s.slice(1);
+            const firstLetter = s.charAt(0).toUpperCase();
+
+            s = firstLetter + sliced
+            return s
+
+        }
+
+        function lastChar(word) {
+            word = word.trim()
+            return word.charAt(word.length - 1)
+
+        }
+
+
+
+        console.log(add7(222))
+        console.log(multiply(100,2))
+        console.log(capitalize('pIzZa'))
+        console.log(lastChar('Pizza Pizza Pie            '))
+
+    </script>
+    
+</body>
+</html>
